@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761929731DBC829A00786A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761929721DBC829A00786A68 /* main.m */; };
+		761929761DBC829A00786A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761929751DBC829A00786A68 /* AppDelegate.m */; };
+		761929791DBC829A00786A68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761929781DBC829A00786A68 /* ViewController.m */; };
+		7619297C1DBC829A00786A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7619297A1DBC829A00786A68 /* Main.storyboard */; };
+		7619297E1DBC829A00786A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7619297D1DBC829A00786A68 /* Assets.xcassets */; };
+		761929811DBC829A00786A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7619297F1DBC829A00786A68 /* LaunchScreen.storyboard */; };
+		76192A6A1DBCF8BE00786A68 /* WDRefreshAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76192A671DBCF8BE00786A68 /* WDRefreshAnimationView.m */; };
+		76192A6B1DBCF8BE00786A68 /* WDRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76192A691DBCF8BE00786A68 /* WDRefreshView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7619296E1DBC829A00786A68 /* WDRefreshAnimationView-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WDRefreshAnimationView-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761929721DBC829A00786A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761929741DBC829A00786A68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		761929751DBC829A00786A68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		761929771DBC829A00786A68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		761929781DBC829A00786A68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7619297B1DBC829A00786A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7619297D1DBC829A00786A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761929801DBC829A00786A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		761929821DBC829A00786A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76192A661DBCF8BE00786A68 /* WDRefreshAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDRefreshAnimationView.h; sourceTree = "<group>"; };
+		76192A671DBCF8BE00786A68 /* WDRefreshAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDRefreshAnimationView.m; sourceTree = "<group>"; };
+		76192A681DBCF8BE00786A68 /* WDRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDRefreshView.h; sourceTree = "<group>"; };
+		76192A691DBCF8BE00786A68 /* WDRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDRefreshView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7619296B1DBC829A00786A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761929651DBC829900786A68 = {
+			isa = PBXGroup;
+			children = (
+				761929701DBC829A00786A68 /* WDRefreshAnimationView-Master */,
+				7619296F1DBC829A00786A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7619296F1DBC829A00786A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7619296E1DBC829A00786A68 /* WDRefreshAnimationView-Master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761929701DBC829A00786A68 /* WDRefreshAnimationView-Master */ = {
+			isa = PBXGroup;
+			children = (
+				76192A651DBCF8BE00786A68 /* WDRefreshAnimationView */,
+				761929741DBC829A00786A68 /* AppDelegate.h */,
+				761929751DBC829A00786A68 /* AppDelegate.m */,
+				761929771DBC829A00786A68 /* ViewController.h */,
+				761929781DBC829A00786A68 /* ViewController.m */,
+				7619297A1DBC829A00786A68 /* Main.storyboard */,
+				7619297D1DBC829A00786A68 /* Assets.xcassets */,
+				7619297F1DBC829A00786A68 /* LaunchScreen.storyboard */,
+				761929821DBC829A00786A68 /* Info.plist */,
+				761929711DBC829A00786A68 /* Supporting Files */,
+			);
+			path = "WDRefreshAnimationView-Master";
+			sourceTree = "<group>";
+		};
+		761929711DBC829A00786A68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				761929721DBC829A00786A68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76192A651DBCF8BE00786A68 /* WDRefreshAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				76192A661DBCF8BE00786A68 /* WDRefreshAnimationView.h */,
+				76192A671DBCF8BE00786A68 /* WDRefreshAnimationView.m */,
+				76192A681DBCF8BE00786A68 /* WDRefreshView.h */,
+				76192A691DBCF8BE00786A68 /* WDRefreshView.m */,
+			);
+			name = WDRefreshAnimationView;
+			path = ../../WDRefreshAnimationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7619296D1DBC829A00786A68 /* WDRefreshAnimationView-Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761929851DBC829A00786A68 /* Build configuration list for PBXNativeTarget "WDRefreshAnimationView-Master" */;
+			buildPhases = (
+				7619296A1DBC829A00786A68 /* Sources */,
+				7619296B1DBC829A00786A68 /* Frameworks */,
+				7619296C1DBC829A00786A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WDRefreshAnimationView-Master";
+			productName = "WDRefreshAnimationView-Master";
+			productReference = 7619296E1DBC829A00786A68 /* WDRefreshAnimationView-Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761929661DBC829A00786A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = WD;
+				TargetAttributes = {
+					7619296D1DBC829A00786A68 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TUT6WU5FHW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 761929691DBC829A00786A68 /* Build configuration list for PBXProject "WDRefreshAnimationView-Master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761929651DBC829900786A68;
+			productRefGroup = 7619296F1DBC829A00786A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7619296D1DBC829A00786A68 /* WDRefreshAnimationView-Master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7619296C1DBC829A00786A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761929811DBC829A00786A68 /* LaunchScreen.storyboard in Resources */,
+				7619297E1DBC829A00786A68 /* Assets.xcassets in Resources */,
+				7619297C1DBC829A00786A68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7619296A1DBC829A00786A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76192A6B1DBCF8BE00786A68 /* WDRefreshView.m in Sources */,
+				76192A6A1DBCF8BE00786A68 /* WDRefreshAnimationView.m in Sources */,
+				761929791DBC829A00786A68 /* ViewController.m in Sources */,
+				761929761DBC829A00786A68 /* AppDelegate.m in Sources */,
+				761929731DBC829A00786A68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7619297A1DBC829A00786A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7619297B1DBC829A00786A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7619297F1DBC829A00786A68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761929801DBC829A00786A68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761929831DBC829A00786A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761929841DBC829A00786A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761929861DBC829A00786A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TUT6WU5FHW;
+				INFOPLIST_FILE = "WDRefreshAnimationView-Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wdtest.WDRefreshAnimationView-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		761929871DBC829A00786A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TUT6WU5FHW;
+				INFOPLIST_FILE = "WDRefreshAnimationView-Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wdtest.WDRefreshAnimationView-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761929691DBC829A00786A68 /* Build configuration list for PBXProject "WDRefreshAnimationView-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761929831DBC829A00786A68 /* Debug */,
+				761929841DBC829A00786A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761929851DBC829A00786A68 /* Build configuration list for PBXNativeTarget "WDRefreshAnimationView-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761929861DBC829A00786A68 /* Debug */,
+				761929871DBC829A00786A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761929661DBC829A00786A68 /* Project object */;
+}
