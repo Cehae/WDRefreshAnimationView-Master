@@ -16,7 +16,7 @@
 /*
  * 线的颜色，默认为红色
  */
-@property (nonatomic, assign) UIColor  * lineColor;
+@property (nonatomic, strong) UIColor  * lineColor;
 /*
  * 取值范围：0.0 - 1.0
  */
